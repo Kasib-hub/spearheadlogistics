@@ -1,0 +1,16 @@
+.box-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 1rem auto;
+  background-color: lightcoral;
+  padding: 1rem 1rem 0.5rem 1rem;
+  width: 360px;
+  border-radius: 0.5rem;
+}
+
+/* .label {
+} */
