@@ -1,20 +1,18 @@
 
-
 import './App.css'
-import logo from './assets/logo.jpeg'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
 
 function App() {
 
   return (
     <div className="App">
-      <h1 className="title">Spearhead of All Logistics</h1>
-      <div className="card">
-        <p>
-        "You Don't Wait On Us, We Wait On You."
-        </p>
-        <img src={logo} alt="spearhead logo" className="logo"/>
-      </div>
-
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </Router>
+      <p>built by <a href='https://github.com/Kasib-hub'>Kasib Abdullah</a></p>
     </div>
   )
 }

@@ -6,8 +6,9 @@
 }
 
 .title {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 8rem;
+  margin: 5rem auto 3rem auto;
   line-height: 0.9;
   letter-spacing: -2px;
 }
@@ -15,3 +16,4 @@
 .logo {
   width: 360px;
 }
+
