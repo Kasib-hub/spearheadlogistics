@@ -5,34 +5,37 @@ import Training from '../assets/training.png'
 import Values from '../assets/values.png'
 import Service from '../assets/service.png'
 import './Cards.css'
+import { useNavigate } from 'react-router-dom'
 
 function Cards() {
+
+  const navigate = useNavigate();
 
   return (
     <>
     <div className='box-row'>
-      <div className="card">
+      <div className="card" onClick={() => navigate('/mission')}>
         <img src={Logo} alt="spearhead logo" className="card-img"/>
         <p className='label'>Mission</p>
       </div>
-      <div className="card">
+      <div className="card" onClick={() => navigate('/vision')}>
         <img src={Vision} alt="longroad" className="card-img"/>
         <p className='label'>Vision</p>
       </div>
-      <div className="card">
-        <img src={Values} alt="longroad" className="card-img"/>
+      <div className="card" onClick={() => navigate('/values')}>
+        <img src={Values} alt="hands-clasped" className="card-img"/>
         <p className='label'>Values</p>
       </div>
-      <div className="card">
-        <img src={Service} alt="manLooking" className="card-img"/>
+      <div className="card" onClick={() => navigate('/services')}>
+        <img src={Service} alt="man-looking" className="card-img"/>
         <p className='label'>Services</p>
       </div>
-      <div className="card">
-        <img src={Employment} alt="truck_driver" className="card-img"/>
+      <div className="card" onClick={() => navigate('/employment')}>
+        <img src={Employment} alt="truck-driver" className="card-img"/>
         <p className='label'>Employment</p>
       </div>
-      <div className="card">
-        <img src={Training} alt="truck_driver" className="card-img"/>
+      <div className="card" onClick={() => navigate('/training')}>
+        <img src={Training} alt="man-mask" className="card-img"/>
         <p className='label'>Training</p>
       </div>
     </div>

@@ -8,11 +8,26 @@
 .card {
   margin: 1rem auto;
   background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
   padding: 0.5rem;
   width: fit-content;
   border: 2px solid #ffffff;
   border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.card:hover {
+  border: 2px solid #2e3192;
+  color: #2e3192;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:active {
+  background-color: #dbdbdb;
+}
+
+
 
 /* .label {
 } */
