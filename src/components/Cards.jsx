@@ -32,7 +32,7 @@ function Cards() {
       </div>
       <div className="card" onClick={() => navigate('/employment')}>
         <img src={Employment} alt="truck-driver" className="card-img"/>
-        <p className='label'>Employment</p>
+        <p className='label'>Careers</p>
       </div>
       <div className="card" onClick={() => navigate('/training')}>
         <img src={Training} alt="man-mask" className="card-img"/>

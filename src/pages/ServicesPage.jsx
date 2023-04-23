@@ -1,8 +1,23 @@
+import Header from '../components/Header';
+import { useNavigate } from 'react-router-dom';
+
 function ServicesPage() {
+
+  const navigate = useNavigate();
 
   return (
     <>
-      <h1>Employment Page</h1>
+      <Header
+        titleText='Services' 
+      />
+      <ul>
+        <li>Ambulatory</li>
+        <li>Wheelchair</li>
+        <li>Stretcher</li>
+        <li>Long-Distance</li>
+        <li>Special Needs</li>
+      </ul>
+      <button className='return-btn' onClick={() => navigate('/')}>Go Back</button>
     </>
   );
 }
