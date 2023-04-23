@@ -18,8 +18,28 @@
   height: 240px;
 }
 
+@media (max-width: 768px) {
+  .card-img {
+    width: 280px;
+    height: 200px;
+  }
+}
+
 .p-text {
   color: #696969;
+}
+
+.p-header-text {
+  margin: 2rem 0rem;
+  text-align: justify;
+}
+
+.header-title {
+  font-weight: 800;
+  font-size: 8rem;
+  margin: 1rem auto 3rem auto;
+  line-height: 0.9;
+  letter-spacing: -2px;
 }
 
 p {
@@ -33,7 +53,24 @@ p {
   margin-bottom: 1rem;
 }
 
-.image-container {
+.header-img {
+  width: 350px;
+}
+
+.return-btn {
+  margin-bottom: 1rem;
+  background-color: #2e3192;
+  color: #F7F7F7;
+  transition: 0.2s all;
+}
+
+.return-btn:hover {
+  background-color: #494dda;
+ 
+}
+
+
+/* .image-container {
   position: relative;
   display: inline-block;
 }
@@ -53,4 +90,5 @@ p {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.938);
   border-radius: 50%;
-}
+} */
+

@@ -1,16 +1,18 @@
 import Logo from '../assets/logoCircle.png';
+import { useNavigate } from 'react-router-dom';
 
-function Header({titleText}) {
+function Header({titleText, pText}) {
+
+  const navigate = useNavigate();
 
   return (
     <>
       <div class="image-container">
-        <img src={Logo} alt='company logo'/>
-        <div class="overlay">
-          <h1 className="title">{titleText}</h1>
-        </div>     
+        <h1 className="header-title">{titleText}</h1>
+        <img src={Logo} alt='company logo' className="header-img"/><br />
+        <p className='p-header-text'>{pText}</p>
+        <button className='return-btn' onClick={() => navigate('/')}>click here</button>
       </div>
-      <button className='return-btn'>click here</button>
     </>
     
   );
