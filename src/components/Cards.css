@@ -2,13 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0 auto;
 }
 
 .card {
   margin: 1rem auto;
-  background-color: lightcoral;
-  padding: 1rem 1rem 0.5rem 1rem;
-  width: 360px;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  width: fit-content;
+  border: 2px solid #ffffff;
   border-radius: 0.5rem;
 }
 
