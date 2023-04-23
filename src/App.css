@@ -76,6 +76,10 @@ li {
   text-align: justify;
 }
 
+.contact-email {
+  font-weight: 700;
+}
+
 
 /* .image-container {
   position: relative;

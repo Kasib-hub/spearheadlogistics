@@ -47,7 +47,7 @@ function EmploymentPage() {
         <li>Be Physically able to drive long distances and obtain a Medical Release from physician</li>
       </ul><br />
 
-      <p><strong>For an application packet please call Patrick or Hamidah at 210-419-6216 or fill out our Contact Us Page form and we will be in touch with you soon.</strong></p>
+      <p><strong>For an application packet please <a href='tel:+2104196216' className='contact-email'>call us</a> or <a href='mailto:spearheadofalllogistics@gmail.com' className='contact-email'>email us</a> and we will be in touch with you soon.</strong></p>
 
       <button className='return-btn' onClick={() => navigate('/')}>Go Back</button>
     </>
