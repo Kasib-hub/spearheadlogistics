@@ -58,7 +58,7 @@ p {
 }
 
 .return-btn {
-  margin-bottom: 1rem;
+  margin: 2rem 0rem;
   background-color: #2e3192;
   color: #F7F7F7;
   transition: 0.2s all;
@@ -67,6 +67,11 @@ p {
 .return-btn:hover {
   background-color: #494dda;
  
+}
+
+li {
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 
 

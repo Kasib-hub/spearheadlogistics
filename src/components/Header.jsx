@@ -11,7 +11,7 @@ function Header({titleText, pText}) {
         <h1 className="header-title">{titleText}</h1>
         <img src={Logo} alt='company logo' className="header-img"/><br />
         <p className='p-header-text'>{pText}</p>
-        <button className='return-btn' onClick={() => navigate('/')}>click here</button>
+        
       </div>
     </>
     
