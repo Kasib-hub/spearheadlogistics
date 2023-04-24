@@ -8,7 +8,7 @@
 .title {
   font-weight: 800;
   font-size: 8rem;
-  margin: 5rem auto 3rem auto;
+  margin: 3rem auto 3rem auto;
   line-height: 0.9;
   letter-spacing: -2px;
 }
@@ -80,26 +80,4 @@ li {
   font-weight: 700;
 }
 
-
-/* .image-container {
-  position: relative;
-  display: inline-block;
-}
-
-.image-container img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.938);
-  border-radius: 50%;
-} */
 

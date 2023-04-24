@@ -1,7 +1,10 @@
 import Header from '../components/Header';
+import { useNavigate } from 'react-router-dom';
 
 
 function MissionPage() {
+
+  const navigate = useNavigate();
 
   return (
     <>
