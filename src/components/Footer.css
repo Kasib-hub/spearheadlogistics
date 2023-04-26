@@ -1,0 +1,9 @@
+img {
+  width: 1.5rem;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}

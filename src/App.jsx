@@ -8,6 +8,7 @@ import ValuesPage from './pages/ValuesPage'
 import ServicesPage from './pages/ServicesPage'
 import EmploymentPage from './pages/EmploymentPage'
 import TrainingPage from './pages/TrainingPage'
+// import Footer from './components/Footer'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/employment" element={<EmploymentPage />} />
           <Route path="/training" element={<TrainingPage />} />
         </Routes>
+        {/* <Footer /> */}
       </Router>
     </div>
   )
