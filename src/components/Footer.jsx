@@ -18,6 +18,7 @@ function Footer() {
         <div>
           <img src={Marker} alt='marker' /><span>San Antonio, Texas</span>
         </div>
+        <hr />
         
       </div>
       
