@@ -1,9 +1,20 @@
 img {
   width: 1.5rem;
+  vertical-align: middle;
+}
+
+span {
+  margin-left: 1rem;
+  vertical-align: middle;
 }
 
 .contact {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
   padding: 1.5rem 2rem;
+}
+
+.contact div {
+  margin-bottom: 1rem;
 }
