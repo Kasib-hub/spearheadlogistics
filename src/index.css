@@ -2,6 +2,11 @@
 
 
 :root {
+  /* color scheme */
+  --navy: #2e3192;
+  --off-white: #F7F7F7;
+  --navy-hover: #494dda;
+  --light-gray: #696969;
   line-height: 1.5;
   font-weight: 400;
   background-color: #F7F7F7;

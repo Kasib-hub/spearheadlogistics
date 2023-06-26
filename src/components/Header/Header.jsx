@@ -1,4 +1,4 @@
-import Logo from '../assets/logoCircle.png';
+import Logo from '../../assets/logoCircle.png';
 import { useNavigate } from 'react-router-dom';
 
 function Header({titleText, pText}) {

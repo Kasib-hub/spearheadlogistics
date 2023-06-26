@@ -1,6 +1,6 @@
 
-import Cards from '../components/Cards';
-import Footer from '../components/Footer'
+import Cards from '../components/Cards/Cards';
+import Footer from '../components/Footer/Footer'
 
 function HomePage() {
 

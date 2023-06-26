@@ -1,6 +1,6 @@
-import Phone from '../assets/phone.svg'
-import Email from '../assets/email.svg'
-import Marker from '../assets/marker.svg'
+import Phone from '../../assets/phone.svg'
+import Email from '../../assets/email.svg'
+import Marker from '../../assets/marker.svg'
 import './Footer.css'
 
 function Footer() {

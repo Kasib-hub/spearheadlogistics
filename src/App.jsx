@@ -8,6 +8,7 @@ import ValuesPage from './pages/ValuesPage'
 import ServicesPage from './pages/ServicesPage'
 import EmploymentPage from './pages/EmploymentPage'
 import TrainingPage from './pages/TrainingPage'
+import NavBar from './components/NavBar/NavBar'
 
 
 
