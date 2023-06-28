@@ -1,0 +1,12 @@
+.home-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .home-page {
+    width: 700px;
+    margin: 0 auto;
+    align-items: center;
+  }
+}

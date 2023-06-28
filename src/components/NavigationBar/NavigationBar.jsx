@@ -3,9 +3,18 @@ import './NavigationBar.css';
 
 function NavigationBar() {
   return (
-    <div className="NavigationBar">
-      Navvy
-    </div>
+    <nav className="NavigationBar">
+      {/* <div className='nav-btn-edge'>
+        <span>SPEARHEAD OF ALL LOGISTICS</span>
+      </div> */}
+      <div>
+        <span>Home</span>
+        <span>About Us</span>
+        <span>Contact</span>
+      </div>
+
+      
+    </nav>
   );
 }
 

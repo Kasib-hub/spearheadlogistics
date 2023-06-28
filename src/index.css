@@ -13,6 +13,7 @@
   color: #2B2B2B;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -30,10 +31,7 @@ a:hover {
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {

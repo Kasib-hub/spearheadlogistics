@@ -1,7 +1,7 @@
 #root {
-  max-width: 800px;
   margin: 0 auto;
   padding: 0;
+  min-width: 700px;
   text-align: center;
 }
 
@@ -80,4 +80,12 @@ li {
   font-weight: 700;
 }
 
+.red-btn-lg {
+  background-color: #ff0000d7;
+  color: #F7F7F7;
+  transition: 0.2s all;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 
