@@ -3,7 +3,9 @@ import './NavigationBar.css';
 
 function NavigationBar() {
   return (
-    "navigation bar"
+    <div className="NavigationBar">
+      Navvy
+    </div>
   );
 }
 
