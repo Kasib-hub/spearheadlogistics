@@ -6,7 +6,7 @@ function TrainingPage() {
   const navigate = useNavigate();
 
   return (
-    <>
+    <div className='body-page-text'>
       <Header 
         titleText='Training'
       />
@@ -30,7 +30,7 @@ function TrainingPage() {
         <li>Company Policies and Procedures</li>
       </ul>
       <button className='return-btn' onClick={() => navigate('/')}>Go Back</button>
-    </>
+    </div>
   );
 }
 

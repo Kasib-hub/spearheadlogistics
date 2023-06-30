@@ -6,7 +6,7 @@ function ValuesPage() {
   const navigate = useNavigate();
 
   return (
-    <>
+    <div className='body-page-text'>
       <Header 
         titleText='Values' 
       />
@@ -44,7 +44,7 @@ function ValuesPage() {
         </li>
       </ol>
       <button className='return-btn' onClick={() => navigate('/')}>Go Back</button>
-    </>
+    </div>
   );
 }
 

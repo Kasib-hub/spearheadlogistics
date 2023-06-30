@@ -1,4 +1,4 @@
-
+import Dropdown from '../Dropdown/Dropdown';
 import './NavigationBar.css';
 
 function NavigationBar() {
@@ -10,7 +10,9 @@ function NavigationBar() {
       <div>
         <span>Home</span>
         <span>About Us</span>
+        <Dropdown />
         <span>Contact</span>
+        
       </div>
 
       

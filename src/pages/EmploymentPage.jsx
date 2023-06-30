@@ -6,7 +6,7 @@ function EmploymentPage() {
   const navigate = useNavigate();
 
   return (
-    <>
+    <div className='body-page-text'>
       <Header 
         titleText='Careers'
       />
@@ -50,7 +50,7 @@ function EmploymentPage() {
       <p><strong>For an application packet please <a href='tel:+2104196216' className='contact-email'>call us</a> or <a href='mailto:spearheadofalllogistics@gmail.com' className='contact-email'>email us</a> and we will be in touch with you soon.</strong></p>
 
       <button className='return-btn' onClick={() => navigate('/')}>Go Back</button>
-    </>
+    </div>
   );
 }
 

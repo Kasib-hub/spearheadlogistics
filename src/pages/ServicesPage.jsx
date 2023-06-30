@@ -6,7 +6,7 @@ function ServicesPage() {
   const navigate = useNavigate();
 
   return (
-    <>
+    <div className='body-page-text'>
       <Header
         titleText='Services' 
       />
@@ -18,7 +18,7 @@ function ServicesPage() {
         <li>Special Needs</li>
       </ul>
       <button className='return-btn' onClick={() => navigate('/')}>Go Back</button>
-    </>
+    </div>
   );
 }
 
