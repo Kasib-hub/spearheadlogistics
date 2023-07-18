@@ -1,4 +1,3 @@
-import Dropdown from '../Dropdown/Dropdown';
 import './NavigationBar.css';
 
 function NavigationBar() {
@@ -7,15 +6,11 @@ function NavigationBar() {
       {/* <div className='nav-btn-edge'>
         <span>SPEARHEAD OF ALL LOGISTICS</span>
       </div> */}
-      <div>
+      <div className='nav-btns'>
         <span>Home</span>
         <span>About Us</span>
-        <Dropdown />
         <span>Contact</span>
-        
       </div>
-
-      
     </nav>
   );
 }

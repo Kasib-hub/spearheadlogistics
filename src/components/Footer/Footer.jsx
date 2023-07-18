@@ -6,9 +6,9 @@ import './Footer.css'
 function Footer() {
 
   return (
-    <>
+    <div className='footer'>
       <div className='contact'>
-        <p><strong>Contact</strong></p>
+        <p><strong>Contact Us</strong></p>
         <div>
           <img src={Phone} alt='phone' /><span>210-419-6216</span>
         </div>
@@ -19,10 +19,12 @@ function Footer() {
           <img src={Marker} alt='marker' /><span>San Antonio, Texas</span>
         </div>
         {/* <hr /> */}
-        
+      </div>
+      <div className='footer-links'>
+        <p><strong>Careers</strong></p>
       </div>
       
-    </>
+    </div>
   );
 }
 

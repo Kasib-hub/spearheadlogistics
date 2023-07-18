@@ -21,3 +21,12 @@
     width: 200px;
     padding: 0 5rem;
 }
+
+.nav-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+
+}

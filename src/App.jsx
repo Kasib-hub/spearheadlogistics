@@ -9,6 +9,7 @@ import ServicesPage from './pages/ServicesPage'
 import EmploymentPage from './pages/EmploymentPage'
 import TrainingPage from './pages/TrainingPage'
 import NavigationBar from './components/NavigationBar/NavigationBar'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/employment" element={<EmploymentPage />} />
           <Route path="/training" element={<TrainingPage />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   )

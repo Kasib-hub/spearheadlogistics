@@ -1,6 +1,6 @@
 
 import Cards from '../components/Cards/Cards';
-import Footer from '../components/Footer/Footer'
+
 import './HomePage.css'
 
 function HomePage() {
@@ -12,7 +12,6 @@ function HomePage() {
       <p className='p-text'>"You Don't Wait On Us, We Wait On You."</p>
       <button className='red-btn-lg'>Book Now</button>
       <Cards /><br />
-      <Footer />
       {/* <p className='credit'>built by <a href='https://github.com/Kasib-hub'>Kasib Abdullah</a></p> */}
     </div>
   );
