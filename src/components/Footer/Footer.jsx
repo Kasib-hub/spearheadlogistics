@@ -1,6 +1,7 @@
 import Phone from '../../assets/phone.svg'
 import Email from '../../assets/email.svg'
 import Marker from '../../assets/marker.svg'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 function Footer() {
@@ -21,7 +22,8 @@ function Footer() {
         {/* <hr /> */}
       </div>
       <div className='footer-links'>
-        <p><strong>Careers</strong></p>
+        <Link to='/careers'><p><strong>Careers</strong></p></Link>
+        <Link to='/training'><p><strong>Training</strong></p></Link>
       </div>
       
     </div>

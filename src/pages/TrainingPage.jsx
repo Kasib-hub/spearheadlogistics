@@ -29,7 +29,6 @@ function TrainingPage() {
         <li>Emergency Response</li>
         <li>Company Policies and Procedures</li>
       </ul>
-      <button className='return-btn' onClick={() => navigate('/')}>Go Back</button>
     </div>
   );
 }

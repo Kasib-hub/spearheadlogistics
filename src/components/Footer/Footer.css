@@ -26,8 +26,11 @@ hr {
 
 .footer {
   display: flex;
-  background-color: var(--navy);
+  justify-content: space-around;
+  background-color: #2B2B2B;
   width: 100%;
+  color: var(--off-white-dark);
+  margin-top: 3rem;
 }
 
 .footer-links {

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './NavigationBar.css';
 
 function NavigationBar() {
@@ -7,9 +8,11 @@ function NavigationBar() {
         <span>SPEARHEAD OF ALL LOGISTICS</span>
       </div> */}
       <div className='nav-btns'>
-        <span>Home</span>
-        <span>About Us</span>
-        <span>Contact</span>
+        <Link to='/'><strong>Home</strong></Link>
+        <Link to='/about'><strong>About Us</strong></Link>
+        <Link to='/contact'><strong>Contact</strong></Link>
+        <Link to='/services'><strong>Services</strong></Link>
+
       </div>
     </nav>
   );
